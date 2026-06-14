@@ -27,8 +27,7 @@
 | ![Earth View](./screenshots/earth-view.png) | ![AI Agents](./screenshots/agents.png) |
 
 | Kessler Cascade Simulator |
-|---|---|
-| ![Kessler Simulator](./screenshots/kessler.png)  |
+ ![Kessler Simulator](./screenshots/kessler.png)  |
 
 ---
 
