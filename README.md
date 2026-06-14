@@ -9,9 +9,10 @@
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-7C3AED?style=flat-square)](https://langgraph.com)
 [![CesiumJS](https://img.shields.io/badge/CesiumJS-3D--Earth-00D4FF?style=flat-square)](https://cesium.com)
+[![FAR AWAY Hackathon](https://img.shields.io/badge/FAR%20AWAY-Hackathon%202026-F59E0B?style=flat-square)](https://zuup.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[Live Demo](https://spacesafexx.vercel.app) · [Judge Mode](#-judge-mode) · [Docs](./docs/summary.md)
+[Live Demo](https://spacesafexx.vercel.app) · [Judge Mode](#-judge-mode) · [Docs](./docs/summary.md) · [Hackathon](#-hackathon)
 
 ---
 
@@ -381,6 +382,33 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
+## 🏆 Hackathon
+
+> **Built for the FAR AWAY International Hackathon 2026**  
+> Organized by **Zuup**
+
+**Challenge:** Build an innovative MVP with real-world impact and technical depth.
+
+**Goal:** Create an AI-powered autonomous space traffic management platform capable of preventing orbital collisions and mitigating Kessler Syndrome events.
+
+### Competition Journey
+
+| Round | Stage | Status |
+|---|---|---|
+| Round 1 | Online MVP Submission | ✅ Submitted |
+| Round 2 | Top 100 Teams — Delhi Offline Hackathon | 🏆 In Progress |
+| Round 3 | Top 5 Teams — Grand Finale Japan | 🌟 Target |
+
+SpaceSafe X was designed specifically to compete at the highest level of the FAR AWAY Hackathon and demonstrate how AI can help solve the growing orbital debris crisis — a problem with genuine global consequences.
+
+---
+
+## 📝 License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
 ## 👨‍💻 Creator
 
 Made with ❤️ by **Omkar Parelkar**
@@ -395,7 +423,7 @@ Made with ❤️ by **Omkar Parelkar**
 
 <div align="center">
 
-**Built for the Hackathon. Designed for the future of space.**
+**Built for FAR AWAY 2026 by Zuup. Designed for the future of space.**
 
 *SpaceSafe X — Protecting Orbits. Ensuring Tomorrow.*
 

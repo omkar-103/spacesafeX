@@ -536,10 +536,56 @@ MongoDB Atlas scales horizontally. Vercel scales to millions of requests. LangGr
 | **Technical Complexity** | 5-agent LangGraph pipeline + CesiumJS 3D + physics simulation |
 | **Real-World Impact** | Addresses existential risk to $300B+ global satellite infrastructure |
 | **Execution Quality** | Production-quality code, design, documentation, and deployment |
-| **Demo Experience** | Judge Mode: 90-second automated demo, no presenter required |
+| **Demo Experience** | Judge Mode: 38-second automated demo, no presenter required |
 
 ---
 
-*SpaceSafe X — Built for the hackathon. Designed for the future of space.*
+## FAR AWAY International Hackathon 2026
+
+> *Organized by **Zuup***
+
+### Why This Problem Fits the Competition
+
+The FAR AWAY Hackathon challenges teams to build innovative MVPs with real-world impact. The orbital debris crisis is one of the most urgent, globally consequential technical problems of the next decade:
+
+- It affects every country with satellite infrastructure
+- It threatens GPS, weather forecasting, internet connectivity, and climate monitoring
+- It has no current autonomous solution at scale
+- It sits at the intersection of AI, aerospace, and planetary-scale risk management
+
+SpaceSafe X directly addresses these dimensions with a production-grade technical implementation.
+
+### Why SpaceSafe X Is a Strong Submission
+
+**Problem Fit**: The FAR AWAY challenge rewards projects with measurable real-world impact. SpaceSafe X targets a $300B+ market and a problem with existential implications for global communications infrastructure.
+
+**Innovation**: Multi-agent AI orchestration for autonomous space traffic management is novel. No existing publicly available platform combines LangGraph multi-agent pipelines with 3D geospatial visualization and cascade simulation in one product.
+
+**Technical Depth**: The stack goes beyond a typical hackathon prototype:
+- CesiumJS (used by NASA and ESA) for 3D orbital visualization
+- LangGraph (enterprise-grade) for agent orchestration
+- MongoDB Atlas for geospatial orbital data
+- Next.js 16 App Router with strict TypeScript throughout
+
+**Scalability Potential**:
+- The architecture can onboard real TLE data from Space-Track.org with minimal changes
+- The agent pipeline can be extended with additional domain specialists
+- The platform can serve space agencies, commercial operators, and defense organizations
+
+**Autonomy**: The platform requires zero human intervention once deployed. The 5-agent pipeline makes decisions faster than any human team — critical for conjunction events with minutes to impact.
+
+### Competition Journey
+
+| Round | Stage | Goal |
+|---|---|---|
+| **Round 1** | Online MVP Submission | Demonstrate technical viability and product completeness |
+| **Round 2** | Top 100 Teams — Delhi Offline Hackathon | Live demo with Judge Mode, technical depth presentation |
+| **Round 3** | Top 5 Teams — Grand Finale Japan | Full platform showcase, investor and jury evaluation |
+
+SpaceSafe X was architected from day one to compete at all three levels — a polished MVP for Round 1, a technically impressive live demo for Round 2, and a scalable vision for Round 3.
+
+---
+
+*SpaceSafe X — Built for FAR AWAY 2026. Designed for the future of space.*
 
 *© 2026 Omkar Parelkar — [omkarparelkar.com](https://www.omkarparelkar.com)*

@@ -1,10 +1,9 @@
-import Navbar from '@/components/layout/navbar';
 import Footer from '@/components/layout/footer';
 
 // ============================================================
 // App Layout — wraps all pages within the (app) route group
-// Provides the top navigation bar, content area, and footer.
-// The (app) folder is a route group — it does NOT affect URLs.
+// Navbar is now rendered globally in root layout.tsx
+// This layout only adds the footer and content offset.
 // ============================================================
 
 export default function AppLayout({
@@ -14,17 +13,14 @@ export default function AppLayout({
 }) {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Fixed top navigation */}
-      <Navbar />
-
-      {/* Main content — pt-16 offsets the fixed 4rem navbar height */}
-      <main className="flex-1 pt-16">
-        <div className="bg-grid min-h-[calc(100vh-4rem)]">
+      {/* Main content — pt-14 offsets the fixed navbar height */}
+      <main className="flex-1 pt-14">
+        <div className="bg-grid min-h-[calc(100vh-3.5rem)]">
           {children}
         </div>
       </main>
 
-      {/* Minimal footer */}
+      {/* Footer */}
       <Footer />
     </div>
   );

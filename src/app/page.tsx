@@ -213,13 +213,13 @@ interface DemoStep {
 }
 
 const DEMO_STEPS: DemoStep[] = [
-  { id: 1, title: 'EARTH TELEMETRY LOCK',       subtitle: 'Scanning 34,247 tracked objects in real-time...',            icon: <Globe2 className="w-5 h-5" />,        duration: 8000 },
-  { id: 2, title: 'THREAT DETECTED',             subtitle: 'ISS × Fengyun-1C Fragment — Conjunction in 00:42:18',        icon: <AlertTriangle className="w-5 h-5" />, duration: 10000 },
-  { id: 3, title: 'COLLISION PREDICTION',        subtitle: 'P(collision) = 1 in 1,000 · Miss distance: 0.3km · ΔV: 14.2km/s', icon: <Target className="w-5 h-5" />,      duration: 10000 },
-  { id: 4, title: 'AI AGENT PIPELINE ACTIVE',   subtitle: 'Debris → Orbit → Fuel → Mission → Commander initializing...', icon: <Brain className="w-5 h-5" />,         duration: 15000 },
-  { id: 5, title: 'AVOIDANCE MANEUVER READY',   subtitle: 'Prograde boost +0.5m/s · Fuel cost: 1.4kg · 99.2% confidence',icon: <Zap className="w-5 h-5" />,           duration: 12000 },
-  { id: 6, title: 'KESSLER CASCADE SIMULATED',  subtitle: '44 potential collisions prevented · Risk reduced 93.6%',      icon: <Atom className="w-5 h-5" />,          duration: 15000 },
-  { id: 7, title: 'MISSION SUCCESS',             subtitle: 'All assets protected · AI System: NOMINAL · Uptime: 100%',   icon: <CheckCircle2 className="w-5 h-5" />,  duration: 12000 },
+  { id: 1, title: 'EARTH TELEMETRY LOCK',       subtitle: 'Scanning 34,247 tracked objects in real-time...',            icon: <Globe2 className="w-5 h-5" />,        duration: 4000 },
+  { id: 2, title: 'THREAT DETECTED',             subtitle: 'ISS × Fengyun-1C Fragment — Conjunction in 00:42:18',        icon: <AlertTriangle className="w-5 h-5" />, duration: 5000 },
+  { id: 3, title: 'COLLISION PREDICTION',        subtitle: 'P(collision) = 1 in 1,000 · Miss distance: 0.3km · ΔV: 14.2km/s', icon: <Target className="w-5 h-5" />,      duration: 5000 },
+  { id: 4, title: 'AI AGENT PIPELINE ACTIVE',   subtitle: 'Debris → Orbit → Fuel → Mission → Commander initializing...', icon: <Brain className="w-5 h-5" />,         duration: 8000 },
+  { id: 5, title: 'AVOIDANCE MANEUVER READY',   subtitle: 'Prograde boost +0.5m/s · Fuel cost: 1.4kg · 99.2% confidence',icon: <Zap className="w-5 h-5" />,           duration: 5000 },
+  { id: 6, title: 'KESSLER CASCADE SIMULATED',  subtitle: '44 potential collisions prevented · Risk reduced 93.6%',      icon: <Atom className="w-5 h-5" />,          duration: 6000 },
+  { id: 7, title: 'MISSION SUCCESS',             subtitle: 'All assets protected · AI System: NOMINAL · Uptime: 100%',   icon: <CheckCircle2 className="w-5 h-5" />,  duration: 5000 },
 ];
 
 function JudgeModeOverlay({ onClose }: { onClose: () => void }) {
@@ -526,7 +526,7 @@ export default function LandingPage() {
   ];
 
   return (
-    <div className="relative overflow-hidden" style={{ background: '#050816' }}>
+    <div className="relative overflow-x-hidden" style={{ background: '#050816' }}>
 
       {/* ======================================== */}
       {/* JUDGE MODE BUTTON (Fixed)                */}
@@ -562,7 +562,7 @@ export default function LandingPage() {
       {/* ======================================== */}
       <motion.section
         style={{ opacity: heroOpacity }}
-        className="relative min-h-screen flex flex-col"
+        className="relative min-h-screen flex flex-col pt-14"
       >
         {/* Subtle grid */}
         <div
@@ -573,12 +573,9 @@ export default function LandingPage() {
           }}
         />
 
-        {/* Top fade */}
-        <div className="absolute top-0 left-0 right-0 h-14 bg-gradient-to-b from-[#050816] to-transparent z-10 pointer-events-none" />
-
         {/* Hero content */}
         <div className="relative z-10 flex-1 flex items-center">
-          <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 w-full py-24 sm:py-28">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-28">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
               {/* ---- LEFT: Content ---- */}

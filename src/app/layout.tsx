@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono, Orbitron, Space_Grotesk } from 'next/font/google';
+import Navbar from '@/components/layout/navbar';
 import './globals.css';
 
 // ============================================================
@@ -81,11 +82,14 @@ export default function RootLayout({
       className={`${inter.variable} ${jetbrainsMono.variable} ${orbitron.variable} ${spaceGrotesk.variable}`}
     >
       <body
-        className="min-h-screen antialiased"
+        className="min-h-screen antialiased overflow-x-hidden"
         style={{ backgroundColor: '#050816', color: '#F8FAFC', fontFamily: 'Inter, sans-serif' }}
       >
         {/* Starfield background — purely decorative */}
         <div className="starfield" aria-hidden="true" />
+
+        {/* Global Navbar — visible on ALL routes including homepage */}
+        <Navbar />
 
         {/* Application content */}
         <div className="relative z-10">

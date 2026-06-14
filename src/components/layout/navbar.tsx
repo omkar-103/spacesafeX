@@ -96,8 +96,8 @@ export default function Navbar() {
           fixed top-0 left-0 right-0 z-50 h-14
           transition-all duration-300
           ${isScrolled
-            ? 'bg-[#050816]/98 border-b border-[#172554] shadow-[0_4px_32px_rgba(0,0,0,0.5)] backdrop-blur-md'
-            : 'bg-[#050816]/80 border-b border-[#172554]/60 backdrop-blur-sm'
+            ? 'bg-[#050816] border-b border-[#172554] shadow-[0_4px_32px_rgba(0,0,0,0.6)] backdrop-blur-md'
+            : 'bg-[#050816]/95 border-b border-[#172554]/80 backdrop-blur-sm shadow-[0_2px_16px_rgba(0,0,0,0.4)]'
           }
         `}
         style={{ willChange: 'transform' }}
