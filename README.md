@@ -9,10 +9,10 @@
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-7C3AED?style=flat-square)](https://langgraph.com)
 [![CesiumJS](https://img.shields.io/badge/CesiumJS-3D--Earth-00D4FF?style=flat-square)](https://cesium.com)
-[![FAR AWAY Hackathon](https://img.shields.io/badge/FAR%20AWAY-Hackathon%202026-F59E0B?style=flat-square)](https://zuup.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![FAR AWAY Hackathon](https://img.shields.io/badge/FAR%20AWAY-Hackathon%202026-F59E0B?style=flat-square)](https://unstop.com/hackathons/far-away-zuup-1677472)
 
-[Live Demo](https://spacesafexx.vercel.app) · [Judge Mode](#-judge-mode) · [Docs](./docs/summary.md) · [Hackathon](#-hackathon)
+
+[Live Demo](https://spacesafex-x.vercel.app) · [Judge Mode](#-judge-mode) · [Docs](./docs/summary.md) · [Hackathon](#-hackathon)
 
 ---
 
@@ -28,7 +28,7 @@
 
 | Kessler Cascade Simulator | Judge Mode Demo |
 |---|---|
-| ![Kessler Simulator](./screenshots/kessler.png) | ![Judge Mode](./screenshots/judge-mode.png) |
+| ![Kessler Simulator](./screenshots/kessler.png)  |
 
 ---
 
@@ -84,7 +84,7 @@ Existing space traffic management is **manual, slow, and reactive**. SpaceSafe X
 - Typical AI result: **93.6% risk reduction**, 44 collisions prevented
 
 ### 🎬 Judge Mode
-- One-click **60–90 second guided product demonstration**
+- One-click **30–45 second guided product demonstration**
 - Auto-advances through all 7 platform stages with cinematic transitions
 - Accessible from navbar, hero section, and dashboard
 - No user interaction required — ideal for live demos and evaluations
@@ -376,11 +376,7 @@ SpaceSafe X uses a bespoke aerospace design language:
 
 ---
 
-## 📄 License
 
-MIT License — see [LICENSE](LICENSE) for details.
-
----
 
 ## 🏆 Hackathon
 
@@ -403,11 +399,6 @@ SpaceSafe X was designed specifically to compete at the highest level of the FAR
 
 ---
 
-## 📝 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
 
 ## 👨‍💻 Creator
 
