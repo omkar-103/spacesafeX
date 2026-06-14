@@ -26,7 +26,7 @@
 |---|---|
 | ![Earth View](./screenshots/earth-view.png) | ![AI Agents](./screenshots/agents.png) |
 
-| Kessler Cascade Simulator | Judge Mode Demo |
+| Kessler Cascade Simulator |
 |---|---|
 | ![Kessler Simulator](./screenshots/kessler.png)  |
 
